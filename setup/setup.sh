@@ -8,7 +8,7 @@ lxd init --auto
 lxc profile device remove default eth0
 
 if [ ! -f ~/.commands ]; then
-    curl https://github.com/FujishigeTemma/InternetArchLecture/setup/.bashrc >> ~/.commands
+    curl https://raw.githubusercontent.com/FujishigeTemma/InternetArchLecture/main/setup/.bashrc >> ~/.commands
     echo "source ~/.commands" >> ~/.bashrc
 		source ~/.commands
 fi

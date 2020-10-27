@@ -21,7 +21,7 @@
     - memory 1GB
 
 Exec this script:  
-`curl https://github.com/FujishigeTemma/InternetArchLecture/setup/setup.sh | bash`
+`curl https://raw.githubusercontent.com/FujishigeTemma/InternetArchLecture/main/setup/setup.sh | bash`
 
 ## Table of Contents
 1. [IP Address](/ip-address/README.md)
