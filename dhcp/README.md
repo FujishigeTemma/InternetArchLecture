@@ -52,3 +52,9 @@ s1~s3は`dhclient`導入済みUbuntu 20.04 LTSです。
 
 DHCPサーバーには少なくとも割り当てる範囲のアドレスプール・サブネットマスク、デフォルトゲートウェイのアドレスの3つが必要です。
 </details>
+
+***
+
+[解答を見る](../solutions/dhcp/README.md)
+
+[TOPへ](../README.md)

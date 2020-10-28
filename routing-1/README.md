@@ -38,3 +38,9 @@ Chapter1と同様に使用する各NICにはIPアドレスを割り当てる必�
 
 「VyOS static route set」などで検索してみると良いでしょう。
 </details>
+
+***
+
+[解答を見る](../solutions/routing-1/README.md)
+
+[TOPへ](../README.md)

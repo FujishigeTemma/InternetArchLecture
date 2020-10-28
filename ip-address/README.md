@@ -68,3 +68,9 @@ ICMPは「エラー通知」や「制御メッセージ」を転送するため�
 
 「VyOS IPアドレス 設定」などで検索してみると良いでしょう。
 </details>
+
+***
+
+[解答を見る](../solutions/ip-address/README.md)
+
+[TOPへ](../README.md)
