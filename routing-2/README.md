@@ -7,7 +7,7 @@
 		- [動的経路制御](#動的経路制御)
 		- [OSPF(Open Shortest Path First)](#ospfopen-shortest-path-first)
 	- [Assignment](#assignment)
-		- [1. 静的ルーティングによってr3からrEX, r5, `8.8.8.8`のすべてに`ping`が通るようにしてみよう](#1-静的ルーティングによってr3からrex-r5-8888のすべてにpingが通るようにしてみよう)
+		- [1. OSPFによってr4から各ルーター、および`8.8.8.8`のすべてに`ping`が通るようにしてみよう](#1-ospfによってr4から各ルーターおよび8888のすべてにpingが通るようにしてみよう)
 		- [2. リンクステート情報の変化に応じて、経路が動的に切り替わる様子を確認してみよう](#2-リンクステート情報の変化に応じて経路が動的に切り替わる様子を確認してみよう)
 
 ## Lesson
@@ -54,42 +54,33 @@ OSPFのエリアは、エリア0(バックボーンエリア)に他のすべて�
 
 ## Assignment
 
-### 1. 静的ルーティングによってr3からrEX, r5, `8.8.8.8`のすべてに`ping`が通るようにしてみよう
+### 1. OSPFによってr4から各ルーター、および`8.8.8.8`のすべてに`ping`が通るようにしてみよう
+
+[WARN]
+静的ルーティングの設定が存在する場合、そちらが優先的に参照されることに注意してください。
 
 <details>
 <summary>ヒント1</summary>
 
-Chapter1と同様に使用する各NICにはIPアドレスを割り当てる必要があります。
+LSAにはエリアとネットワークの指定が必要です。
 </details>
 
 <details>
 <summary>ヒント２</summary>
 
-`ping`の応答パケットのルーティングも必要です。
+インターネットへ接続するにはデフォルトルートを設定する必要があります。
 </details>
 
 <details>
 <summary>ヒント3</summary>
 
-「VyOS static route set」などで検索してみると良いでしょう。
+「VyOS OSPF 設定」などで検索してみると良いでしょう。
 </details>
 
 ### 2. リンクステート情報の変化に応じて、経路が動的に切り替わる様子を確認してみよう
 
 <details>
-<summary>ヒント1</summary>
+<summary>ヒント</summary>
 
-Chapter1と同様に使用する各NICにはIPアドレスを割り当てる必要があります。
-</details>
-
-<details>
-<summary>ヒント２</summary>
-
-`ping`の応答パケットのルーティングも必要です。
-</details>
-
-<details>
-<summary>ヒント3</summary>
-
-「VyOS static route set」などで検索してみると良いでしょう。
+リンクステート情報のパスコストを手動で設定すると良いでしょう。
 </details>
