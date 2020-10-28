@@ -32,7 +32,7 @@ DHCPサーバには色々な設定項目がありますが、DHCPクライアン
 
 ### 1. DHCPを使ってs1~s3がインターネットに接続できるようにしてみよう
 
-[INFO]
+**[INFO]**  
 s1~s3は`dhclient`導入済みUbuntu 20.04 LTSです。
 
 <details>
