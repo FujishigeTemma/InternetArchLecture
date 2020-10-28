@@ -35,7 +35,7 @@ Exec this script:
 1. [Routing 1](/routing-1/README.md)
 1. [Routing 2](/routing-2/README.md)
 1. [DHCP](/dhcp/README.md)
-1. [VPN](/vpn/README.md)
+1. [IP Tunneling](/ip-tunneling/README.md)
 1. [BGP](/bgp/README.md)
 1. [DNS 1](/dns-1/README.md)
 1. [DNS 2](/dns-2/README.md)

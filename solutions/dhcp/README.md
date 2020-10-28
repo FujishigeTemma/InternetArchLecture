@@ -1,4 +1,4 @@
-# IP Address - Solution
+# DHCP - Solution
 
 ## Assignment 1
 
