@@ -20,3 +20,4 @@ nic_full_reset
 add_server r4 s1
 add_server r4 s2
 add_server r4 s3
+add_server rEX sEX
