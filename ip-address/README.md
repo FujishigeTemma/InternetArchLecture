@@ -7,7 +7,7 @@
 		- [Internet](#internet)
 		- [TCP/IP](#tcpip)
 	- [Assignment](#assignment)
-		- [1. rEXとr1の間でpingによる疎通確認ができるようにしてみる。](#1-rexとr1の間でpingによる疎通確認ができるようにしてみる)
+		- [1. rEXとr1の間でpingによる疎通確認ができるようにしてみよう。](#1-rexとr1の間でpingによる疎通確認ができるようにしてみよう)
 
 ## Lesson
 
@@ -44,7 +44,7 @@ IPv4アドレスは32bitの数値で表され、ネットワークを指定す�
 
 割り当てられたネットワークの構成については[docs](/docs/topology.md)を参照してください。
 
-### 1. rEXとr1の間でpingによる疎通確認ができるようにしてみる。
+### 1. rEXとr1の間でpingによる疎通確認ができるようにしてみよう。
 
 <details>
 <summary>ヒント1</summary>
