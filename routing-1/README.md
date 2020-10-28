@@ -20,6 +20,7 @@
 ## Assignment
 
 ### 1. 静的ルーティングによってr3からrEX, r5, `8.8.8.8`のすべてに`ping`が通るようにしてみよう
+
 <details>
 <summary>ヒント1</summary>
 
