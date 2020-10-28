@@ -7,7 +7,7 @@
 		- [NAT(Network Address Translation)](#natnetwork-address-translation)
 		- [Gateway](#gateway)
 	- [Assignment](#assignment)
-		- [1. r1から8.8.8.8にpingが通るようにしてみよう。](#1-r1から8888にpingが通るようにしてみよう)
+		- [1. r1から`8.8.8.8`に`ping`が通るようにしてみよう](#1-r1から8888にpingが通るようにしてみよう)
 
 ## Lesson
 
@@ -33,7 +33,7 @@ NATはその名の通りIPアドレスを変換するための技術です。
 
 ## Assignment
 
-### 1. r1から8.8.8.8にpingが通るようにしてみよう。
+### 1. r1から`8.8.8.8`に`ping`が通るようにしてみよう
 
 <details>
 <summary>ヒント1</summary>

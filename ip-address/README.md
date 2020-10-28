@@ -7,7 +7,7 @@
 		- [Internet](#internet)
 		- [TCP/IP](#tcpip)
 	- [Assignment](#assignment)
-		- [1. rEXとr1の間でpingによる疎通確認ができるようにしてみよう。](#1-rexとr1の間でpingによる疎通確認ができるようにしてみよう)
+		- [1. rEXとr1の間でpingによる疎通確認ができるようにしてみよう](#1-rexとr1の間でpingによる疎通確認ができるようにしてみよう)
 
 ## Lesson
 
@@ -44,7 +44,7 @@ IPv4アドレスは32bitの数値で表され、ネットワークを指定す�
 
 割り当てられたネットワークの構成については[docs](/docs/topology.md)を参照してください。
 
-### 1. rEXとr1の間でpingによる疎通確認ができるようにしてみよう。
+### 1. rEXとr1の間でpingによる疎通確認ができるようにしてみよう
 
 <details>
 <summary>ヒント1</summary>
@@ -66,5 +66,5 @@ ICMPは「エラー通知」や「制御メッセージ」を転送するため�
 <details>
 <summary>ヒント3</summary>
 
-「VyOS IPアドレス 設定」などで検索してみると良いでしょう、
+「VyOS IPアドレス 設定」などで検索してみると良いでしょう。
 </details>

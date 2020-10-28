@@ -1,4 +1,4 @@
-# IP Address - Solution
+# NAT - Solution
 
 ## Assignment 1
 
