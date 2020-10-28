@@ -47,9 +47,7 @@ IPv4アドレスは32bitの数値で表され、ネットワークを指定す�
 ### 1. rEXとr1の間でpingによる疎通確認ができるようにしてみる。
 
 <details>
-	<summary>
-		ヒント1
-	</summary>
+	<summary>ヒント1</summary>
 
 	`ping`はICMPを使用したネットワークの診断プログラムです。
 	ICMPは「エラー通知」や「制御メッセージ」を転送するためのプロトコルで、IP上で動作します。
@@ -60,9 +58,7 @@ IPv4アドレスは32bitの数値で表され、ネットワークを指定す�
 </details>
 
 <details>
-	<summary>
-		ヒント２
-	</summary>
+	<summary>ヒント２</summary>
 
 	最初に決める必要があるのは、rEXのeth10とr1のeth12に割り振るネットワークの範囲です。
 	この場合、ネットワークの大きさは`.0/30`で良いでしょう。
@@ -70,10 +66,8 @@ IPv4アドレスは32bitの数値で表され、ネットワークを指定す�
 </details>
 
 <details>
-	<summary>
-		ヒント3
-	</summary>
-	
+	<summary>ヒント3</summary>
+
 	「VyOS IPアドレス 設定」などで検索してみると良いでしょう、
 
 </details>
