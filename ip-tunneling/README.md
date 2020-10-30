@@ -3,11 +3,11 @@
 この章では、IP Tunnelingの基礎知識とその設定を学びます。
 
 - [Chapter6: IP Tunneling](#chapter6-ip-tunneling)
-	- [Lesson](#lesson)
-		- [Tunneling](#tunneling)
-		- [IP in IP Tunneling](#ip-in-ip-tunneling)
-	- [Assignment](#assignment)
-		- [1. 他の人のサーバーとIPIPトンネリングを張って、トンネルに指定したIPに対してpingが通ることを確認してください。](#1-他の人のサーバーとipipトンネリングを張ってトンネルに指定したipに対してpingが通ることを確認してください)
+  - [Lesson](#lesson)
+    - [Tunneling](#tunneling)
+    - [IP in IP Tunneling](#ip-in-ip-tunneling)
+  - [Assignment](#assignment)
+    - [1. 他の人のサーバーとIPIPトンネリングを張って、トンネルに指定したIPに対してpingが通ることを確認してください。](#1-他の人のサーバーとipipトンネリングを張ってトンネルに指定したipに対してpingが通ることを確認してください)
 
 ## Lesson
 
@@ -76,6 +76,6 @@ Chapter7以降に進むために必須になります。
 
 ***
 
-[解答を見る](../solutions/ip-tunneling/README.md/README.md)
+[解答を見る](../solutions/ip-tunneling/README.md)
 
 [TOPへ](../README.md)

@@ -5,7 +5,7 @@
 [r4]
 ```
 root@150-95-184-195:~# attach r4
-vyos@r6:/$ config
+vyos@r4:/$ config
 [edit]
 vyos@r4# set interfaces ethernet eth100 address 192.168.0.142/28
 
