@@ -63,5 +63,21 @@ nic_full_reset() {
     connect r5 r6
     connect r1 rEX
     connect r6 rEX
+    
     add_nic br-r4-server r4 100
+    add_nic br-rEX-server rEX 100
+}
+
+full_reset() {
+    docker ps -qa | xargs docker rm -f
+    lxc list --format=csv --columns=n | lxc delete -f
+
+    seq 1 6 | xargs -IXXX docker run -d --name rXXX --hostname=rXXX --net=none --privileged -v /lib/modules:/lib/modules 2stacks/vyos:latest /sbin/init
+    docker run -d --name rEX --hostname=rEX --net=host --privileged -v /lib/modules:/lib/modules 2stacks/vyos:latest /sbin/init
+
+    nic_full_reset
+    add_server r4 s1
+    add_server r4 s2
+    add_server r4 s3
+    add_server rEX sEX
 }
