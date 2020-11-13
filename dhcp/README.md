@@ -42,7 +42,7 @@ s1~s3は`dhclient`導入済みUbuntu 20.04 LTSです。
 </details>
 
 <details>
-<summary>ヒント２</summary>
+<summary>ヒント2</summary>
 
 最初はこれまでと同様にr4の`eth100`に対してIPアドレスやOSPFの設定を行う必要があります。
 </details>

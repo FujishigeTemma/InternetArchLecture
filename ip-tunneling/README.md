@@ -63,7 +63,7 @@ Chapter7以降に進むために必須になります。
 </details>
 
 <details>
-<summary>ヒント２</summary>
+<summary>ヒント2</summary>
 
 自分のグローバルIPアドレスと相手のグローバルIPアドレスが必要です。
 </details>

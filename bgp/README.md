@@ -126,7 +126,7 @@ IPトンネリングと同様、お互いが設定する必要があります。
 </details>
 
 <details>
-<summary>ヒント２</summary>
+<summary>ヒント2</summary>
 
 相手のグローバルIPとAS番号が必要です。
 </details>

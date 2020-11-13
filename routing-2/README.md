@@ -66,7 +66,7 @@ LSAにはエリアとネットワークの指定が必要です。
 </details>
 
 <details>
-<summary>ヒント２</summary>
+<summary>ヒント2</summary>
 
 インターネットへ接続するにはデフォルトルートを設定する必要があります。
 </details>

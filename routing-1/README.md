@@ -28,7 +28,7 @@ Chapter1と同様に使用する各NICにはIPアドレスを割り当てる必�
 </details>
 
 <details>
-<summary>ヒント２</summary>
+<summary>ヒント2</summary>
 
 `ping`の応答パケットのルーティングも必要です。
 </details>
