@@ -10,7 +10,7 @@ lxc profile device remove default eth0
 if [ ! -f ~/.commands ]; then
     curl https://raw.githubusercontent.com/FujishigeTemma/InternetArchLecture/main/setup/.bashrc >> ~/.commands
     echo "source ~/.commands" >> ~/.bashrc
-		source ~/.commands
+    source ~/.commands
 fi
 
 seq 1 6 | xargs -IXXX docker run -d --name rXXX --hostname=rXXX --net=none --privileged -v /lib/modules:/lib/modules 2stacks/vyos:latest /sbin/init
