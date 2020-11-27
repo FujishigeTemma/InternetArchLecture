@@ -41,7 +41,7 @@ config:
 }
 
 nic_full_reset() {
-    docker ps -qa | xargs docker start
+    docker start $(docker ps -qa)
     
     seq 1 6 | xargs -I XXX docker exec rXXX bash -c "echo '127.0.0.1 rXXX' >> /etc/hosts"
     docker exec rEX bash -c "echo '127.0.0.1 rEX' >> /etc/hosts"
@@ -70,7 +70,8 @@ nic_full_reset() {
 
 full_reset() {
     docker ps -qa | xargs docker rm -f
-    lxc list --format=csv --columns=n | lxc delete -f
+    docker network prune
+    lxc delete -f $(lxc list --format=csv --columns=n)
 
     seq 1 6 | xargs -IXXX docker run -d --name rXXX --hostname=rXXX --net=none --privileged -v /lib/modules:/lib/modules 2stacks/vyos:latest /sbin/init
     docker run -d --name rEX --hostname=rEX --net=host --privileged -v /lib/modules:/lib/modules 2stacks/vyos:latest /sbin/init
